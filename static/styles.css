@@ -91,3 +91,34 @@ h1 {
 .winner {
     animation: glow 1s infinite alternate;
 }
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+footer a {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+footer p {
+    font-family: 'Inter', sans-serif; /* Use Inter for a modern look */
+    font-size: 14px;
+    font-weight: 500;
+    color: #333; /* Dark gray for readability */
+    margin-top: 10px;
+    opacity: 0.8; /* Slightly faded for a subtle effect */
+}
