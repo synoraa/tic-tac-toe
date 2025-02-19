@@ -1,12 +1,11 @@
 {
     "version": 2,
-    "functions": {
-      "app.py": {
-        "runtime": "python@latest"
-      }
-    },
+    "builds": [],
     "routes": [
-      { "src": "/(.*)", "dest": "app.py" }
+      {
+        "src": "/(.*)",
+        "dest": "app.py"
+      }
     ]
   }
   
